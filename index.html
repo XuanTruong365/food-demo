@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Love</title>
+    <link rel="stylesheet" href="./assets/css/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+     <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="./base.css">
+</head>
+<body>
+    <!-- header section starts  -->
+    <nav class="header__navbar" id="home">
+        <ul class="header__navbar-list">
+          <li class="header__navbar-items header__navbar-items--saparate">Kênh Người Bán</li>
+          <li class="header__navbar-items header__navbar-items--saparate">Trở thành Người bán FoodLove</li>
+          <li class="header__navbar-items header__navbar-items--has-qr header__navbar-items--saparate"> 
+            Tải ứng dụng
+              
+            <!--header qr-code -->
+              <div class="header__qr">
+                <img src="./assets/css/img/qr_code.png" alt="qr-code" class="header__qr-img">
+                <div class="header__qr-apps">
+                  <a href="" class="header__qr-link">
+                    <img src="./assets/css/img/appstore.png" alt="AppStore" class="header__download-img">
+                  </a>
+                 <a href="" class="header__qr-link">
+                   <img src="./assets/css/img/google.png" alt="AppStore" class="header__download-img">
+                 </a>
+                </div>
+              </div>
+          </li>
+          <li class="header__navbar-items">
+              <span class="header__navbar-title--no-pointer"> Kết nối</span>
+                <a href="" class="header__navbar-icons-link header__navbar-icons-a">
+                  <i class="header__navbar-icons fab fa-facebook"></i>          
+                </a>
+                <a href="" class="header__navbar-icons-link">
+                  <i class="header__navbar-icons fab fa-instagram"></i>
+                </a>
+          </li>               
+        </ul>
+               
+        <ul class="header__navbar-list">
+            <li class="header__navbar-items header__navbar-items--has-notify">
+              <a href="" class="header__navbar-items-link">
+                <div class="header__notify">
+                    <header class="header__notify-header">
+                      <h3>Nhận Thông Báo Mới</h3>
+                    </header>
+                    <ul class="header__notify-list">
+                      <li class="header__notify-item header__notify-item--viewed">
+                        <a href="" class="header__notify-link">
+                          <img src="./images/buncha.jpg" alt="" class="header__notify-img">
+                          <div class="header__notify-info">
+                            <span class="header_notify-name">Lẩu nướng 2 người</span>
+                            <span class="header__notify-description">
+                              hidden tag là cách xác thực sản phẩm tiên tiến nhất hiện nay
+                            </span>
+                          </div>   
+                        </a>
+                      </li>
+                    </ul>
+
+                    <ul class="header__notify-list">
+                      <li class="header__notify-item header__notify-item--viewed">
+                        <a href="" class="header__notify-link">
+                          <img src="./images/banhda.jpg" alt="" class="header__notify-img">
+                          <div class="header__notify-info">
+                            <span class="header_notify-name">Đưa tay đây nào! mã đây bạn nhé.</span>
+                            <span class="header__notify-description">
+                             Voucher hoàn xu extra, đã có sẵn trong kho voucher của bạn.
+                            </span>
+                          </div>   
+                        </a>
+                      </li>
+                    </ul>
+
+                    <ul class="header__notify-list">
+                      <li class="header__notify-item header__notify-item--viewed">
+                        <a href="" class="header__notify-link">
+                          <img src="./images/buncha.jpg" alt="" class="header__notify-img">
+                          <div class="header__notify-info">
+                            <span class="header_notify-name">Xác thực nguồn gốc drink-coffee</span>
+                            <span class="header__notify-description">
+                             hidden tag là cách xác thực sản phẩm chính hãng tiên tiến nhất hiện nay
+                            </span>
+                          </div>   
+                        </a>
+                      </li>
+                    </ul>
+
+                    <footer class="header__notify-footer">
+                      <a href="" class="header__notify-footer-btn">Xem Tất Cả</a>
+                    </footer>
+                </div>
+                  <i class="header__navbar-icons fas fa-bell"></i>
+                    Thông Báo
+              </a>
+            </li>
+            <li class="header__navbar-items">
+              <a href="" class="header__navbar-items-link">
+                  <i class="header__navbar-icons far fa-question-circle"></i>
+                  Hỗ Trợ
+              </a>
+            </li>
+            <!-- <li class="header__navbar-items header__navbar-items-strong header__navbar-items--saparate">Đăng Ký</li>
+            <li class="header__navbar-items header__navbar-items-strong">Đăng Nhập</li> -->
+
+            <li class="header__navbar-items heaader__navbar-user">
+              <img src="./assets/css/img/user.jpg" alt="" class="header__navbar-img">
+              <span class="header__navbar-user-name">Xuân Trường</span>
+
+              <ul class="header__navbar-user-menu">
+                <li class="header__navbar-user-items">
+                  <a href="">Tài khoản của tôi</a>
+                </li>
+                <li class="header__navbar-user-items">
+                  <a href="">Địa chỉ của tôi</a>
+                </li>
+                <li class="header__navbar-user-items">
+                  <a href="">Đơn mua</a>
+                </li>
+                <li class="header__navbar-user-items header__navbar-user-items--saperate">
+                  <a href="">Đăng xuất</a>
+                </li>
+              </ul>
+            </li>
+        </ul>
+      </nav> 
+<header>
+    
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a>
+
+    <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+
+    <nav class="navbar">
+        <a class="navbar-list" href="#home">
+            <i class="fas fa-home"></i>home
+            <ul class="navbar-items">
+                <li class="nabar-items-link">Thông Tin</li>
+                <li class="nabar-items-link">Hỗ Trợ</li>
+                <li class="nabar-items-link">Liên Hệ</li>
+            </ul>
+        </a>
+        <a href="#popular">
+            <i class="fas fa-layer-group"></i>
+            popular</a>
+        <a href="#tranforms">
+            <i class="fas fa-car-crash"></i>
+            transport</a>
+        <a href="#gallery">
+            <i class="fab fa-envira"></i>
+            gallery</a>
+        <a href="#review"><i class="fas fa-grin-hearts"></i>
+            review</a>
+        <a href="#order">
+            <i class="fas fa-rss"></i>
+            order</a>
+    </nav>
+
+    <div class="search-box">
+        <input type="text" class="search-txt" placeholder="Tìm Kiếm">
+     
+    </div>
+
+    <div href="" class="search-btn">
+        <i class="fas fa-search"></i>
+    </div>
+    
+    <div class="header__cart">
+        <i class="fas fa-shopping-cart">
+            <div class="shop-cart__list">3</div>
+        </i>
+    </div>
+</header>
+
+
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>food made with love</h3>
+        <p>Chào Mừng bạn, đã đến FoodLove chúng tôi,Chúng tôi khao khát mang đến cho hàng triệu người Việt những trải nghiệm ẩm thực đường phố tinh túy nhất, được chắt lọc từ các nền văn hoá đặc sắc khác nhau, từ khắp nơi trên thế giới, được nghiên cứu bởi sự tử tế, cẩn trọng hàng ngàn giờ, với những chuyên gia tài ba bậc nhất, đặc biệt với giá thành bình dân và trải nghiệm sản phẩm, dịch vụ tuyệt vời nhất…!</p>
+        <a href="#" class="btn header__btn">order now</a>
+    </div>
+
+    <div class="image">
+        <img src="images/home-img.png" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- speciality section starts  -->
+<marquee behavior="" direction="left">Black Friday - Discounts Up to 70%</marquee>
+<div class="order__sale">
+    <div class="items1">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="btn" id="bottom1">
+                <input type="radio" name="btn" id="bottom2">
+                <input type="radio" name="btn" id="bottom3">
+                <input type="radio" name="btn" id="bottom4">
+            
+                 <div class="slide first">
+                      <img src="./images/p-2.jpg" alt="">        
+                </div>
+                 <div class="slide">
+                      <img src="./images/drink8.jpg" alt="">
+                </div>
+                 <div class="slide">
+                      <img src="./images/drink9.jpeg" alt="">
+                </div>
+                 <div class="slide">
+                      <img src="./images/s-img-2.jpg" alt="">
+                </div>
+                 
+                <div class="nav__auto">
+                    <div class="btn__auto1"></div>
+                    <div class="btn__auto2"></div>
+                    <div class="btn__auto3"></div>
+                    <div class="btn__auto4"></div>
+                   
+                </div>
+    
+            </div>
+    
+            <div class="nav__manual">
+                <label for="bottom1" class="manual__btn"></label>
+                <label for="bottom2" class="manual__btn"></label>
+                <label for="bottom3" class="manual__btn"></label>
+                <label for="bottom4" class="manual__btn"></label>
+            </div>
+        </div>
+    </div>
+    <div class="items5">
+        <img src="./images/banner2.jpg" alt="">
+    </div>
+    <div class="items6">
+        <img src="./images/qc.jpg" alt="">
+    </div>
+</div>
+
+<div class="app__container">
+    <h1 class="heading"> Demo <span>food</span> </h1>
+    <div class="grid">
+        <div class="grid__row">
+            <div class="grid__column-2">
+                <h1 class="column-2-menu">MENU</h1>
+                <div class="column-2-menu-link">
+                    <i  class="fas fa-bars"></i>
+               
+                    <div class="column-menu">
+                      <a href="http://192.168.1.5:5500/index2.html#">
+                        <h5 class="column-2__title">rice and noodle</h5>
+                      </a>
+                      <a href="http://192.168.1.5:5500/index3.html">
+                        <h5 class="column-2__title">Fruit Juice</h5>
+                      </a>
+                      <a href="http://192.168.1.5:5500/index4.html">
+                        <h5 class="column-2__title">Lẩu Mây</h5>
+                      </a>
+                      <a href="http://192.168.1.5:5500/index3.html">
+                        <h5 class="column-2__title">Tráng miệng</h5>
+                      </a>
+                    </div>  
+                </div>              
+            </div>
+
+            <div class="grid__column-10">
+                
+               <div class="grid__row">
+                   <div class="grid__column-2-4">
+                    <a href="http://192.168.1.5:5500/index3.html" class="link-menu">
+                        <div class="box">
+                            <img class="image" src="images/phoga.jpg" alt="">
+                            <div class="content">
+                                <img src="images/s-2.png" alt="">
+                                <h3>Phở Việt</h3>
+                                <p>Phở là một món ăn truyền thống của Việt Nam, cũng có thể xem là một trong những món ăn đặc trưng nhất cho ẩm thực Việt Nam.</p>
+                            </div>
+                        </div>
+                    </a>
+                   </div>
+                
+                    
+                    <div class="grid__column-2-4">
+                        <div class="box">
+                            <img class="image" src="images/s-img-3.jpg" alt="">
+                            <div class="content">
+                                <img src="images/s-3.png" alt="">
+                                <h3>ice-cream</h3>
+                                <p>Fairy Ice - cream là sản phẩm thuộc Legendary, thương hiệu socola trứ danh của Việt Nam. Kem que Fairy không chỉ là kem que mà là kem que phủ socola.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <div class="box">
+                            <img class="image" src="images/s-img-4.jpg" alt="">
+                            <div class="content">
+                                <img src="images/s-4.png" alt="">
+                                <h3>cold drinks</h3>
+                                <p>Nước ép trái cây (Fruit Juice) là loại đồ uống được làm từ trái cây, được xử lý bằng phương pháp ép lấy nước để sử dụng và lọc bỏ phần xác.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <div class="box">
+                            <img class="image" src="images/rice.jpg" alt="">
+                            <div class="content">
+                                <img src="images/s-5.png" alt="">
+                                <h3>Cơm 7 Món</h3>
+                                <p>Bữa cơm gia đình biểu tượng cho sự sum họp, đoàn viên, là không gian kết nối yêu thương. Truyền thống văn hóa Việt Nam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <div class="box">
+                            <img class="image" src="images/tea.jpg" alt="">
+                            <div class="content">
+                                <img src="images/s-6.png" alt="">
+                                <h3>healty breakfast</h3>
+                                <p>Hãy thưởng thức một chén trà, sẽ giúp cho cơ thể và tâm hồn bạn sẽ thoải mái hơn...</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- speciality section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <h1 class="heading"> most <span>popular</span> foods </h1>
+
+    <div class="box-container">
+
+        <div class="box-popular">
+            <span class="price"> 99k - 499k </span>
+            <img src="images/p-1.jpg" alt="">
+            <h3>tasty burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box-popular">
+            <span class="price"> 99k - 499k </span>
+            <img src="images/p-2.jpg" alt="">
+            <h3>tasty cakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box-popular">
+            <span class="price"> 99k - 499k </span>
+            <img src="images/p-3.jpg" alt="">
+            <h3>tasty sweets</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box-popular">
+            <span class="price"> 99k - 499k </span>
+            <img src="images/p-4.jpg" alt="">
+            <h3>tasty cupcakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box-popular">
+            <span class="price"> 99k - 499k </span>
+            <img src="images/p-5.jpg" alt="">
+            <h3>cold drinks</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box-popular">
+            <span class="price"> 99k - 499k </span>
+            <img src="images/p-6.jpg" alt="">
+            <h3>cold ice-cream</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- steps section starts  -->
+
+<div class="step-container">
+
+    <h1 class="heading" id="tranforms">how it <span>works</span></h1>
+
+    <section class="steps">
+
+        <div class="box">
+            <img src="images/step-1.jpg" alt="">
+            <h3>Chọn Món Ăn Yêu Thích.</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-2.jpg" alt="">
+            <h3>Grap food</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-3.jpg" alt="">
+            <h3>Dễ Dàng Thanh Toán</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-4.jpg" alt="">
+            <h3>Hãy Thưởng Thức nào!</h3>
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- steps section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> our food <span> gallery </span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Những món ăn ngon nhẹ nhàng, trong lúc chờ đợi.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Những món ăn ngon nhẹ nhàng, trong lúc chờ đợi.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Những món ăn ngon nhẹ nhàng, trong lúc chờ đợi.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Những món ăn ngon nhẹ nhàng, trong lúc chờ đợi.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Những món ăn ngon nhẹ nhàng, trong lúc chờ đợi.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Những món ăn ngon nhẹ nhàng, trong lúc chờ đợi.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Những món ăn ngon nhẹ nhàng, trong lúc chờ đợi.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Những món ăn ngon nhẹ nhàng, trong lúc chờ đợi.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Những món ăn ngon nhẹ nhàng, trong lúc chờ đợi.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- check-menu-start -->
+<div class="check__menu" id="review">
+    <h1 class="check__heading">CHECK MENU</h1>
+    <div class="check__menu-container">
+        <div class="check__menu-col-1">
+            <div class="check__menu-img">
+                 <img src="./images/check2.png" alt="">
+            </div>
+            <h3 class="check__menu-heading">RICE & NOODLE</h3>
+            <ul class="check__menu-list">
+                <li class="check__menu-items"><span>01:</span> Bánh Cuốn Gà Tần <span class= "p">$2.99</span></li>
+                <li class="check__menu-items"><span>02:</span> Phở Gà Trộn  <span class= "p">$2.99</span></li>
+                <li class="check__menu-items"><span>03:</span> Bánh Cuốn Nóng <span class= "p">$2.99</span></li>
+                <li class="check__menu-items"><span>04:</span> Gà Luộc, Gà Ủ Muối <span class= "p">$2.99</span></li>
+                <li class="check__menu-items"><span>05:</span> Khô Gà <span class= "p">$2.99</span></li>
+                <li class="check__menu-items"><span>06:</span> Cơm sườn, cơm rang dưa bò <span class= "p">$2.99</span></li>
+                <li class="check__menu-items"><span>07:</span> Cơm tấm <span class= "p">$2.99</span></li>
+            </ul>
+       </div>
+       <div class="check__menu-col-2">
+           <div class="check__menu-img">
+            <img src="./images/check1.png" alt="">
+           </div>
+           <h3 class="check__menu-heading">BURGERS & DRINKS</h3>
+           <ul class="check__menu-list">
+               <li class="check__menu-items"><span>01:</span> McDonald's <span class= "p2">$2.99</span></li>
+               <li class="check__menu-items"><span>02:</span> Korean Chicken <span class= "p2">$2.99</span> </li>
+               <li class="check__menu-items"><span>03:</span> Nem Chua Rán <span class= "p2">$2.99</span> </li>
+               <li class="check__menu-items"><span>04:</span> Sandwich <span class= "p2">$2.99</span> </li>
+               <li class="check__menu-items"><span>05:</span> Mr.Potato & More <span class= "p2">$2.99</span> </li>
+               <li class="check__menu-items"><span>06:</span> PappaRoti - Bánh Cafe <span class= "p2">$2.99</span> </li>
+               <li class="check__menu-items"><span>07:</span> Coffee <span class= "p2">$2.99</span> </li>
+               <li class="check__menu-items"><span>08:</span> Trà tranh <span class= "p2">$2.99</span> </li>
+           </ul>
+       </div>
+       <div class="check__menu-col-1 check__menu-col-3">
+           <div class="check__menu-img">
+               <img src="./images/check2.png" alt="">
+           </div>
+           <h3 class="check__menu-heading">HOT POT</h3>
+           <ul class="check__menu-list">
+               <li class="check__menu-items"><span>01:</span> Lẩu 2 người <span class= "p">$2.99</span></li>
+               <li class="check__menu-items"><span>02:</span> Lẩu thái <span class= "p">$2.99</span> </li>
+               <li class="check__menu-items"><span>03:</span> Hủ tiếu <span class= "p">$2.99</span> </li>
+               <li class="check__menu-items"><span>04:</span> Lẩu thái và đồ uống <span class= "p">$2.99</span> </li>
+               <li class="check__menu-items"><span>05:</span> Lẩu nấm <span class= "p">$2.99</span> </li>
+               <li class="check__menu-items"><span>06:</span> Lẩu Hải sản <span class= "p">$2.99</span> </li>
+               <li class="check__menu-items"><span>07:</span> Cháo cá <span class= "p">$2.99</span> </li>
+           </ul>
+       </div>
+    </div>
+</div>
+
+<!-- check-menu-end -->
+
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <h1 class="heading"> <span>order</span> now </h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="./images/order-img.jpg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="food name">
+            </div>
+
+            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="https://www.facebook.com/truongxuan082001/" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">youtube</a>
+        <a href="#" class="btn">tiktok</a>
+
+        <div class="share__use">
+            <a href="http://192.168.1.5:5501/index.html" class="use__prime">
+                <p>Designer by xuan truong</p>
+            </a>
+        </div>
+    </div>
+    
+</section>
+
+<div class="footer-end">
+    
+    <div class="footer__info">
+       <div class="footer__contact">
+            <h3 class="footer__para">Về chúng tôi </h3>
+          <ul class="footer__list">         
+            <li class="footer__items">Blog</li>
+            <li class="footer__items">Thông Tin</li>
+            <li class="footer__items">Thành Tích</li>
+            <li class="footer__items">Tin tức nổi bật</li>
+          </ul>
+       </div>
+
+        <div class="footer__contact">
+            <h3 class="footer__para">Trung tâm hỗ trợ </h3>
+          <ul class="footer__list">  
+            <li class="footer__items">Call: +840366260316</li>
+            <li class="footer__items">Gmail:xuantruong082001@gmail.com</li>
+            <li class="footer__items">giải đáp thắc mắc</li>          
+          </ul>
+        </div>
+
+        <div class="footer__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119968.28920762858!2d105.55714414730946!3d20.00813538860738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136f2d67bb55855%3A0x5fb8f1689f7282cf!2zWcOqbiDEkOG7i25oLCBUaGFuaCBIb8OhLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1637884269705!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
